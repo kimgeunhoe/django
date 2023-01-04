@@ -1,0 +1,10 @@
+{% extends 'polls/base.html' %}
+
+{% block title %} This is child {% endblock %}
+{% block static %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'polls/custon.css' %}" />
+{% endblock %}
+{% block contents %}
+child contents
+{% endblock %}
